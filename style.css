@@ -1,0 +1,738 @@
+@font-face {
+    font-family: anny;
+    src: url("./font/62857b8fe2b5106045a452e6_ABCWhyteInktrap-Medium.ttf");
+}
+
+@import url('https://fonts.googleapis.com/css2?family=Beau+Rivage&family=Fira+Sans+Extra+Condensed&family=Lexend+Exa:wght@100;200&family=M+PLUS+1p:wght@100&family=Oswald&family=PT+Sans+Caption:wght@700&family=Permanent+Marker&family=Plus+Jakarta+Sans:wght@200&family=Stick+No+Bills&family=Varela+Round&display=swap');
+
+* {
+    font-family: anny;
+    padding: 0;
+    margin: 0;
+    box-sizing: border-box;
+}
+html,
+body {
+    width: 100vw;
+    min-height: 100vh;
+    overflow-x: hidden;
+}
+.main {
+    position: relative;
+    width: 100vw;
+    overflow-y: hidden;
+    overflow-x: hidden;
+}
+
+.page1 {
+    width: 100vw;
+    height: 100vh;
+    background-color: #010DBF;
+}
+
+.mainvideo {
+    z-index: 9;
+    overflow: hidden;
+    position: absolute;
+    left: 0;
+    width: 100vw;
+    height: 100vh;
+    z-index: 9;
+}
+
+.mainvideo>video {
+    width: 100%;
+    height: 100%;
+    object-fit: cover;
+    object-position: center;
+
+}
+
+.page1>.sidebaar {
+    transition: 0.4s cubic-bezier(0.19, 1, 0.22, 1);
+    top: 0;
+    left: 0;
+    z-index: 999;
+    width: 100vw;
+    height: 100vh;
+    position: absolute;
+    background-color: #010DBF;
+    transform: translateX(-200vh);
+}
+
+.nevbaar {
+    z-index: 9999999;
+    top: 10vh;
+    left: 10vw;
+    padding: 20px;
+    display: flex;
+    justify-content: space-between;
+    align-items: center;
+    position: absolute;
+    width: 80vw;
+    height: 15vh;
+
+}
+
+.nevbaar>h1 {
+    color: white;
+    font-family: "GT-super-Text-Book";
+    font-weight: 200;
+    font-size: 42px;
+    font-family: ".";
+}
+
+i {
+    color: white;
+    font-size: 2vw;
+}
+
+.menu {
+    color: white;
+    padding: 1.9vh 1.4vw;
+    border: 2px solid aqua;
+    border-radius: 50%;
+    font-size: 2.3vw;
+    cursor: pointer;
+}
+
+#dotted{
+    position: relative;
+    top: -1vh;
+}
+
+.menu:hover {
+    background-color: rgba(218, 197, 197, 0.521);
+}
+
+.left {
+    display: flex;
+    justify-content: center;
+    align-items: flex-end;
+}
+
+.textcontent {
+    z-index: 99;
+    position: relative;
+    top: 32vh;
+    left: -18vw;
+}
+
+.textcontent>h1 {
+    color: white;
+    font-weight: 500;
+    font-family: "gilroy";
+    line-height: 130px;
+    font-size: 8.6vw;
+    font-weight: 300;
+    letter-spacing: 7px;
+    overflow: hidden;
+
+}
+
+.textcontent>h1:nth-child(2) {
+    font-family: 'GT Super Text Book';
+    font-style: italic;
+}
+
+.page2text {
+    margin: 12%;
+}
+
+.page2text>h3 {
+    overflow: hidden;
+    font-weight: 400;
+    color: #010DBF;
+    font-family: 'Stick No Bills', sans-serif;
+    font-size: 50px;
+    word-spacing: 5px;
+    letter-spacing: 3px;
+    font-style: italic;
+
+}
+
+i {
+    font-family: 'GT Super Text Book';
+}
+img {
+    width: 100%;
+    height: 100%;
+    object-fit: cover;
+    object-position: center;
+}
+
+.images {
+    position: relative;
+
+    width: 80vw;
+    height: 70vh;
+    border-radius: 20px;
+    overflow: hidden;
+    left: 10vw;
+}
+
+#page2img1 {
+    top: 5vh;
+}
+
+#page2img2 {
+    margin-top: 20vh;
+}
+
+#page2img3 {
+    margin-top: 30vh;
+}
+.page2text2 {
+    position: relative;
+    top: 10vh;
+    margin: 12%;
+}
+
+.page2text2>h3 {
+    font-weight: 200;
+    color: #010DBF;
+    font-family: 'Stick No Bills', sans-serif;
+    font-size: 50px;
+    word-spacing: 5px;
+    letter-spacing: 3px;
+    font-style: italic;
+
+}
+
+.page2text2>h3:nth-child(3) {
+    font-size: 30px;
+    font-weight: bolder;
+    margin-top: 5vh
+}
+
+.arrow {
+    top: -4.5vh;
+    left: 22vw;
+    position: relative;
+    width: 25px;
+    height: 25px;
+}
+
+
+.page2text3 {
+    position: relative;
+    top: 10vh;
+    left: 10vw;
+
+}
+
+.page2text3>h3 {
+    font-weight: 200;
+    color: #010DBF;
+    font-family: 'Stick No Bills', sans-serif;
+    font-size: 30px;
+    line-height: 60px;
+    word-spacing: 5px;
+    letter-spacing: 3px;
+    font-style: italic;
+}
+
+
+.page2text4 {
+    position: relative;
+    left: 7vw;
+    top: 15vh;
+    width: 75vw;
+    height: 80vh;
+    display: flex;
+    font-style: italic;
+}
+
+.one {
+    padding: 50px;
+    width: 25vw;
+    height: 100vh;
+}
+
+.one>h6 {
+    font-weight: 100;
+    word-spacing: 3px;
+    letter-spacing: 3px;
+    font-family: 'Stick No Bills', sans-serif;
+    font-size: 35px;
+    color: #010DBF;
+    line-height: 60px;
+    font-style: italic;
+}
+
+.one>h6:nth-child(1) {
+    color: rgb(255, 93, 217);
+}
+
+.two {
+    padding: 50px;
+    width: 25vw;
+    height: 100vh;
+}
+
+.two>h6 {
+    font-weight: 100;
+    word-spacing: 3px;
+    letter-spacing: 3px;
+    font-family: 'Stick No Bills', sans-serif;
+    font-size: 35px;
+    color: #010DBF;
+    line-height: 60px;
+    font-style: italic;
+}
+
+.two>h6:nth-child(1) {
+    color: rgb(255, 93, 217);
+}
+
+.three {
+    padding: 50px;
+
+    width: 25vw;
+    height: 100vh;
+}
+
+.three>h6 {
+    font-weight: 100;
+    word-spacing: 3px;
+    letter-spacing: 3px;
+    font-family: 'Stick No Bills', sans-serif;
+    font-size: 35px;
+    color: #010DBF;
+    line-height: 60px;
+}
+
+.three>h6:nth-child(1) {
+    color: rgb(255, 93, 217);
+}
+
+.footer {
+    border-radius: 15% 15% 0 0;
+    overflow: hidden;
+    position: relative;
+    top: 10vh;
+    width: 100vw;
+    height: 100vh;
+    background-color: #010DBF;
+}
+
+.video {
+    position: relative;
+    width: 20vw;
+    height: 20vh;
+    top: -45vh;
+    right: -65vw;
+}
+
+.page2 {
+    width: 100vw;
+    overflow: hidden;
+}
+
+.footcontent {
+    color: white;
+    position: relative;
+    top: 20vh;
+    left: 10vw;
+}
+
+.footcontent>h5 {
+    font-size: 50px;
+    font-weight: 200;
+    font-style: italic;
+}
+
+.footcontent>h2 {
+    font-weight: 200;
+    font-style: italic;
+    font-size: 25px;
+    margin-top: 10%;
+}
+
+.footcontent>h1 {
+    font-size: 90px;
+}
+
+.footcontent>a {
+    font-size: 20px;
+    font-weight: 100;
+    text-decoration: none;
+    color: white;
+    font-size: 15px;
+    font-style: italic;
+    word-spacing: 2px;
+    letter-spacing: 2px;
+}
+
+.sidecontent {
+    position: relative;
+    top: 25vh;
+    left: 15vw;
+    color: white;
+}
+
+.sidecontent>h1 {
+    font-size: 120px;
+    font-weight: 200;
+}
+
+.sidecontent>h1:nth-child(1) {}
+
+.sidecontent>h1:nth-child(2) {
+    margin-top: -5vh;
+    margin-left: -2vw;
+
+}
+.sidecontent>h1:nth-child(3) {
+    margin-top: -5vh;
+}
+
+
+
+
+
+/* @media(max-width: 500px) */
+
+@media (max-width:500px) {
+
+
+
+    .mainvideo {
+        z-index: 9;
+        overflow: hidden;
+        position: absolute;
+        left: 0vw;
+
+
+
+        width: 100vw;
+        height: 100vh;
+        z-index: 9;
+
+    }
+
+    .mainvideo>video {
+        width: 100%;
+        height: 100%;
+        object-fit: cover;
+        object-position: center;
+    }
+
+    .page1>.sidebaar {
+        transition: 0.4s cubic-bezier(0.19, 1, 0.22, 1);
+        top: 0;
+        left: 0;
+        z-index: 999;
+
+        width: 100vw;
+        height: 100vh;
+        position: absolute;
+        background-color: #010DBF;
+
+        transform: translateX(-200vh);
+
+    }
+
+    .nevbaar {
+        z-index: 9999999;
+        top: 10vh;
+        left: 10vw;
+        padding: 20px;
+        display: flex;
+        justify-content: space-between;
+        align-items: center;
+
+        position: absolute;
+        width: 80vw;
+        height: 15vh;
+
+    }
+
+    .nevbaar>h1 {
+        color: white;
+        font-family: "GT-super-Text-Book";
+        font-weight: 100;
+        font-size: 25px;
+        font-family: ".";
+    }
+
+    i {
+        color: white;
+        font-size: 5vw;
+    }
+
+    .menu {
+        color: white;
+        padding: 15px;
+        border: 2px solid aqua;
+        border-radius: 50%;
+    }
+
+    .menu:hover {
+        background-color: rgba(218, 197, 197, 0.521);
+    }
+
+    .left {
+        display: flex;
+        justify-content: center;
+        align-items: flex-end;
+    }
+
+    .textcontent {
+        z-index: 99;
+        position: relative;
+        top: 33vh;
+        left: -6vw;
+    }
+    .textcontent>h1 {
+        color: white;
+        font-weight: 500;
+        /* font-family: 'Stick No Bills', sans-serif; */
+        font-family: anny;
+        line-height: 80px;
+        font-size: 10vw;
+        font-weight: 300;
+        letter-spacing: 7px;
+        overflow: hidden;
+    }
+
+    .textcontent>h1:nth-child(2) {
+        font-family: 'GT Super Text Book';
+        font-style: italic;
+    }
+    .page2text {
+        margin: 12%;
+    }
+
+    .page2text>h3 {
+        overflow: hidden;
+        font-weight: 200;
+        color: #010DBF;
+        font-family: 'Stick No Bills', sans-serif;
+        font-size: 40px;
+        word-spacing: 5px;
+        letter-spacing: 3px;
+    }
+    i {
+        font-family: 'GT Super Text Book';
+    }
+    img {
+        width: 100%;
+        height: 100%;
+        object-fit: cover;
+        object-position: center;
+    }
+
+    .images {
+        position: relative;
+        width: 80vw;
+        height: 50vh;
+        border-radius: 20px;
+        overflow: hidden;
+        left: 10vw;
+    }
+    #page2img1 {
+        top: 5vh;
+    }
+    #page2img2 {
+        margin-top: 20vh;
+
+    }
+    #page2img3 {
+        margin-top: 30vh;
+    }
+    .page2text2 {
+        position: relative;
+        top: 10vh;
+        margin: 5%;
+    }
+
+    .page2text2>h3 {
+        font-weight: 200;
+        color: #010DBF;
+        font-family: 'Stick No Bills', sans-serif;
+        font-size: 30px;
+        word-spacing: 3px;
+        letter-spacing: 2px;
+    }
+    .page2text2>h3:nth-child(3) {
+        font-size: 20px;
+        font-weight: bolder;
+        margin-top: 5vh
+    }
+
+    .arrow {
+        top: -3.3vh;
+        left: 48vw;
+        position: relative;
+        width: 20px;
+        height: 20px;
+    }
+    .page2text3 {
+        margin: 5px;
+        position: relative;
+        top: 10vh;
+        left: 5vw;
+    }
+
+    .page2text3>h3 {
+        font-weight: 200;
+        color: #010DBF;
+        font-family: 'Stick No Bills', sans-serif;
+        font-size: 25px;
+        word-spacing: 2px;
+        letter-spacing: 2px;
+    }
+    .page2text4 {
+        position: relative;
+        left: 2vw;
+        top: 15vh;
+        width: 75vw;
+        height: 80vh;
+        display: flex;
+        justify-content: space-around;
+    }
+    .one {
+        padding: 50px;
+        width: 25vw;
+        height: 100vh;
+        margin-right: 5vw;
+    }
+
+    .one>h6 {
+        font-weight: 100;
+        word-spacing: 3px;
+        letter-spacing: 3px;
+        font-family: 'Stick No Bills', sans-serif;
+        font-size: 15px;
+        color: #010DBF;
+        line-height: 60px;
+
+    }
+
+    .one>h6:nth-child(1) {
+        color: rgb(255, 93, 217);
+    }
+
+    .two {
+        padding: 50px;
+        width: 25vw;
+        height: 100vh;
+        margin-left: 5vw;
+    }
+
+    .two>h6 {
+        font-weight: 100;
+        word-spacing: 3px;
+        letter-spacing: 3px;
+        font-family: 'Stick No Bills', sans-serif;
+        font-size: 20px;
+        color: #010DBF;
+        line-height: 60px;
+    }
+
+    .two>h6:nth-child(1) {
+        color: rgb(255, 93, 217);
+    }
+
+    .three {
+        padding: 50px;
+        width: 25vw;
+        height: 100vh;
+        margin-left: 5vw;
+    }
+
+    .three>h6 {
+        font-weight: 100;
+        word-spacing: 3px;
+        letter-spacing: 3px;
+        font-family: 'Stick No Bills', sans-serif;
+        font-size: 20px;
+        color: #010DBF;
+        line-height: 60px;
+    }
+
+    .three>h6:nth-child(1) {
+        color: rgb(255, 93, 217);
+    }
+
+    .footer {
+        border-radius: 15% 15% 0 0;
+        overflow: hidden;
+        position: relative;
+        top: 10vh;
+        width: 100vw;
+        height: 100vh;
+        background-color: #010DBF;
+    }
+
+    .video {
+        z-index: 99;
+        position: relative;
+        width: 2vw;
+        height: 2vh;
+        top: -35vh;
+        right: -13vw;
+    }
+
+    .page2 {
+        width: 100vw;
+        overflow: hidden;
+    }
+
+    .footcontent {
+        z-index: 9999;
+        color: white;
+        position: relative;
+        top: 45vh;
+        left: 10vw;
+    }
+
+    .footcontent>h5 {
+        font-size: 50px;
+        font-weight: 200;
+    }
+
+    .footcontent>h2 {
+        font-weight: 200;
+        font-size: 20px;
+        margin-top: 10%;
+    }
+
+    .footcontent>h1 {
+        font-size: 85px;
+    }
+
+    .footcontent>a {
+        font-size: 20px;
+        font-weight: 100;
+        text-decoration: none;
+        color: rgb(33, 205, 205);
+        font-size: 15px;
+    }
+    .sidecontent {
+        position: relative;
+        top: 35vh;
+        left: 5vw;
+        color: white;
+
+    }
+
+    .sidecontent>h1 {
+        font-size: 60px;
+        font-weight: 200;
+    }
+
+    .sidecontent>h1:nth-child(1) {
+        margin-top: 0vh;
+    }
+
+    .sidecontent>h1:nth-child(2) {
+        margin-top: -2vh;
+        margin-left: -2vw;
+    }
+
+    .sidecontent>h1:nth-child(3) {
+        margin-top: -2vh;
+    }
+}
